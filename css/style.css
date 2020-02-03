@@ -280,37 +280,33 @@ a.name-userpic {
 
 .buy-item {
 	width: 30%;
+	padding: 10px 0;
+	box-sizing: border-box;
 	border: 1px solid black;
-	border-radius: 6px;
-	background-color: #fff;
-}
-
-.buy-cl1 {
-	display: block;
-	padding: 10px 0 10px 0;
-	text-align: center;
 	background-color: rgb(68, 81, 97);
+	border-radius: 6px;
+	/* background-color: #fff; */
 }
 
 .buy-class1 {
+	display: block;
+	padding: 10px;
 	font-size: 24px;
 	font-family: "Arial";
+	text-align: center;
 	color: #fff;
 	line-height: 1.25;
 }
 
-.buy-cl2 {
-	display: block;
-	padding: 10px 0 10px 0;
-	text-align: center;
-	background-color: #fff;
-}
-
 .buy-class2 {
+	display: block;
+	padding: 10px;
 	font-size: 34px;
 	font-family: "Arial";
 	color: rgb(68, 81, 97);
 	line-height: 1.27;
+	text-align: center;
+	background-color: #fff;
 }
 
 .buy-class3 {
@@ -319,9 +315,16 @@ a.name-userpic {
 	color: #fff;
 	line-height: 1.5;
 	text-align: left;
+	background-color: rgb(68, 81, 97);
 }
 
 .buy-button {
+	width: 261px;
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+	box-sizing: border-box;
+	text-align: center;
 	font-size: 20px;
 	font-family: "Arial";
 	color: rgb(68, 81, 97);
@@ -329,8 +332,8 @@ a.name-userpic {
 	background-color: #fff;
 	outline: none;
 	border-radius: 6px;
-	padding: 10px 80px 10px 80px;
-	margin: 30px 0 50px 0;
+	/* padding: 10px 80px 10px 80px; */
+	/* margin: 30px 0 50px 0; */
 	line-height: 2;
 }
 
